@@ -1,0 +1,425 @@
+.no-padding {
+    padding:0px !important
+}
+.blue-btn {
+    background: #01adef none repeat scroll 0 0;
+    border: 1px solid #01adef;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    max-width: 300px;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.blue-btn {
+    font-size: 16px;
+    padding: 8px 12px;
+}
+.blue-btn {
+    width: 80%;
+}
+.blue-btn {
+    width: auto;
+}
+
+
+/** Chat box css */
+.chat-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.chat-btn img { 
+    border-radius:50%;
+    width:80px;
+    height:80px;
+    border:1px solid #686868;
+    cursor:pointer;
+    box-shadow:0px 3px 5px #ccc;
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    25% {
+        opacity:0.25;
+    }
+    50% {
+        opacity:0.50;
+    }
+    75% {
+        opacity:0.75;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    25% {
+        opacity:0.25;
+    }
+    50% {
+        opacity:0.50;
+    }
+    75% {
+        opacity:0.75;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    25% {
+        opacity:0.25;
+    }
+    50% {
+        opacity:0.50;
+    }
+    75% {
+        opacity:0.75;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    25% {
+        opacity:0.25;
+    }
+    50% {
+        opacity:0.50;
+    }
+    75% {
+        opacity:0.75;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+.blink-image {
+    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+
+.cb {
+	position: fixed;
+	width: 300px;
+	display:none;
+    height:375px;
+    bottom:0px;
+    z-index: 11211;
+}
+.cb iframe {
+    min-height:375px;
+    height:auto;
+}
+
+
+.chatbox {
+    max-width:100%;
+    background-color: #ffffff;
+    border: 1px solid #b0b0b0;
+    height: 100%;
+    width: 100%;
+}
+
+.chatbox .header {
+    background-color: #01adef;
+    clear: both;
+    color: #fff;
+    display: inline-table;
+    font-size: 18px;
+    padding: 7px 10px;
+    width: 100%;
+    height: 40px;
+}
+.active-status {
+    font-size: 9px;
+    position: absolute;
+    margin-left: 2px;
+}
+.chatbox .body {
+    height:275px;
+    width:100%;
+    padding:5px;
+    font-size:13px;
+}
+.chatbox .footer {
+    background: #fff none repeat scroll 0 0;
+    width: 100%;
+    padding: 5px;
+    min-height:60px;
+    height:100%;
+}
+.chatbox .content
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y:auto;
+    height:100%;
+}
+.chatbox .txtarea {
+    border-radius: 0px;
+    width: 100%;
+    height: 80px;
+    padding: 5px !important;    
+}
+.chatbox .content li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+.chatbox .content li:first-child
+{
+    margin-top:5px;
+}
+.chatbox .content li:last-child
+{
+    border:0px;
+}
+.content li span.upic {
+    width:40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.content li img{
+    max-width:100%;
+    width: 50px;
+}
+.content li .img-circle {
+   margin-top: -10px; 
+}
+.content li span.me {
+    background: #FA6F57;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 11px;
+    text-transform:uppercase;
+}
+.content li span.you {
+    background: #01adef;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 11px;
+    text-transform:uppercase;
+}
+.chatbox .content li .mheader
+{
+    font-weight:400
+}
+.content li.left .mbody
+{
+    margin-left: 47px;
+}
+.content li.right .mbody
+{
+    margin-right: 47px;
+}
+.content p {
+   /* word-break: break-all;*/
+    float:left
+}
+.chatbox .cb_input {
+    border: 1px solid #b2b2b2 !important;
+    border-radius: 0px;
+    min-height: 40px !important;
+    height:auto;
+    padding: 5px !important;
+    width: 100%;
+    font-size:13px;
+    overflow:hidden;
+    resize: none;
+}
+.chatbox label {
+    font-weight:normal !important    
+}
+.chatbox select {
+     border-radius:0px   
+}
+
+.chatbox .cb_input:focus {
+    border: 2px solid #01adef !important;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.white {
+       color:#ffffff; 
+}
+
+
+.online {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.selected-project{ background:#FFFF99; color:#000000; padding:8px 12px; display:none;}
+.attachments {
+    position: absolute;
+    right: 15px;
+    bottom: 19px;
+    color: #01ADEF;
+    font-size: 22px;
+    cursor: pointer;
+}
+.file-upload-box {
+    position: absolute;
+    height: 55px;
+    width: 99%;
+    border:1px solid #b0b0b0;
+    border-left:0px;
+    border-right:0px;
+    background-color:#f9f9f9;
+    z-index: 1111;
+    bottom: 1px;
+    padding: 5px;
+    box-shadow: 0px 3px 6px #686868;
+}
+.file-upload-box .fclose { 
+    position: absolute;
+    right:5px;
+    margin-top:-2px;
+    cursor:pointer;
+    font-size: 12px;
+    z-index:1111
+}
+.file-upload-box .ficon img {
+    border-radius:3px;
+}
+.file-upload-box .ficon i {
+    font-size: 40px;
+    margin-top:2px;
+}
+.file-upload-box .ferror { 
+    margin-top:13px;
+    font-size:12px
+}
+
+.file-upload-box  .fsend {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+.cattach {
+    font-size: 40px;
+    padding:5px 10px;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius: 5px;
+}
+/*----- File upload progress Progress Bar----*/
+.fprogress{ border:0px dashed #d3d3d3; padding-left:12px; padding-right:0px;padding-top: 4px;}
+.fprogress small{ font-size:12px; padding-bottom:3px;}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000;background-color:#f1f1f1;}
+.w3-blue,.w3-hover-blue:hover{color:#000;background-color:#2196F3; height:15px;text-align:center;font-size:10px}
+.w3-blue-grey,.w3-hover-blue-grey:hover,.w3-blue-gray,.w3-hover-blue-gray:hover{color:#000;height:15px;background-color:#607d8b;}
+.fsend .btn{ padding:3px 8px; background-color:#2196F3; color:#FFFFFF; border-radius:1px;}
+.delete-upload{ color:#FF0000; font-size:14px; padding:1px 2px; float:right;}
+
+
+
+/**
+ * ==============================================
+ * Dot Flashing
+ * ==============================================
+ */
+.chat-loading{ border-radius: 25px; background:#dcdcdc; padding:6px 12px; width:75px; display:none}
+.dot-flashing {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #666666;
+    color: #666666;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: .5s;
+    margin-left:19px;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.dot-flashing::before {
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #666666;
+    color: #666666;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 0s;
+}
+
+.dot-flashing::after {
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #666666;
+    color: #666666;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+    0% {
+        background-color: #666666;
+    }
+    50%,
+    100% {
+        background-color: #ebe6ff;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+
+.blue-btn{ font-size: 15px; }
+}
