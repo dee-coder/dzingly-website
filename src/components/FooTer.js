@@ -2,13 +2,13 @@ import React from "react";
 
 const FooTer = () => {
   return (
-    <div id="footer-navbar" class="container">
-      <p class="text-center">
+    <div id="footer-navbar" className="container">
+      <p className="text-center">
         {" "}
-        <span class="c">©</span>2021 DZINLY<span class="r">®</span>. ALL RIGHTS
+        <span className="c">©</span>2021 DZINLY<span className="r">®</span>. ALL RIGHTS
         RESERVED.
       </p>
-      <ul class="menu">
+      <ul className="menu">
         <li>
           <a href="#"></a>
         </li>
@@ -19,7 +19,7 @@ const FooTer = () => {
         </li>
         <li>
           <a
-            class="ht_how_it_work click-scroll"
+            className="ht_how_it_work click-scroll"
             href="http://thereshome.com/#how-it-work"
             title="How It Works">
             How It Works
@@ -27,20 +27,20 @@ const FooTer = () => {
         </li>
         <li>
           <a
-            class="ht_pricing click-scroll"
+            className="ht_pricing click-scroll"
             href="http://thereshome.com/#pricing"
             title="Pricing">
             Pricing
           </a>
         </li>
         <li>
-          <a class="ht_faq" href="http://thereshome.com/faq" title="FAQs">
+          <a className="ht_faq" href="http://thereshome.com/faq" title="FAQs">
             FAQ
           </a>
         </li>
         <li>
           <a
-            class="ht_about_us click-scroll"
+            className="ht_about_us click-scroll"
             href="http://thereshome.com/#about-us"
             title="About">
             About
