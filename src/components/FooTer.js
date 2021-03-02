@@ -5,19 +5,23 @@ const FooTer = () => {
     <div id="footer-navbar" className="container">
       <p className="text-center">
         {" "}
-        <span className="c">©</span>2021 DZINLY<span className="r">®</span>. ALL RIGHTS
-        RESERVED.
+        <span className="c">©</span>2021 DZINLY<span className="r">®</span>. ALL
+        RIGHTS RESERVED.
       </p>
-      <ul className="menu">
-        <li>
-          <a href="#"></a>
+      <ul
+        className="menu list-inline"
+        style={{
+          textAlign:"center"
+        }}>
+        <li className="list-inline-item" >
+          <a href="#">About</a>
         </li>
-        <li>
+        <li className="list-inline-item" >
           <a href="http://thereshome.com/" title="Home">
             Home
           </a>
         </li>
-        <li>
+        <li className="list-inline-item" >
           <a
             className="ht_how_it_work click-scroll"
             href="http://thereshome.com/#how-it-work"
@@ -25,7 +29,7 @@ const FooTer = () => {
             How It Works
           </a>
         </li>
-        <li>
+        <li className="list-inline-item" >
           <a
             className="ht_pricing click-scroll"
             href="http://thereshome.com/#pricing"
@@ -33,12 +37,12 @@ const FooTer = () => {
             Pricing
           </a>
         </li>
-        <li>
+        <li className="list-inline-item" >
           <a className="ht_faq" href="http://thereshome.com/faq" title="FAQs">
             FAQ
           </a>
         </li>
-        <li>
+        <li className="list-inline-item" >
           <a
             className="ht_about_us click-scroll"
             href="http://thereshome.com/#about-us"
@@ -47,18 +51,18 @@ const FooTer = () => {
           </a>
         </li>
 
-        <li>
+        <li className="list-inline-item" >
           <a href="http://thereshome.com/contact-us" title="Contact">
             Contact
           </a>
         </li>
 
-        <li>
+        <li className="list-inline-item" >
           <a href="http://thereshome.com/privacy-policy" title="Privacy Policy">
             Privacy Policy
           </a>
         </li>
-        <li>
+        <li className="list-inline-item" >
           <a
             href="http://thereshome.com/terms-of-use"
             title="Terms and Conditions">

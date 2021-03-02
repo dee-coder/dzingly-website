@@ -6,12 +6,15 @@ const Pricing = () => {
       <div className="container">
         <h4 className="title title2 text-center">Homeowner Design Packages</h4>
         <div className="row d-flex justify-content-between equal-columns-wrapper column-box-row">
-          <div className="col-md-4 col-sm-12 box columnn-box text-center" style={{backgroundColor:"#F5F5F5",padding:"18px"}}>
-            <div className="small-title">
-              classNameic <span className="price">$99</span>
+          <div className="col-md-4 col-sm-12 box columnn-box text-center" style={{backgroundColor:"#F5F5F5",padding:"18px",marginLeft:"29px" }}>
+            
+            <div className="small-title" >
+              <h2>
+              Classic <span className="price">$99</span>
+              </h2>
             </div>
 
-            <div className="detail">
+            <div className="detail" style={{fontSize:"16px", marginBottom:"10px",paddingBottom:"15px", borderBottom:"2px solid #01adef"}} >
               Know exactly what you want to do?
               <br />
               Select this package to send us your ideas.
@@ -44,10 +47,12 @@ const Pricing = () => {
 
           <div className="col-md-4 col-sm-12 box columnn-box text-center" style={{backgroundColor:"#F5F5F5",padding:"18px"}}>
             <div className="small-title">
+              <h2>
               Premium <span className="price">$199</span>
+              </h2>
             </div>
 
-            <div className="detail">
+            <div className="detail" style={{fontSize:"16px", marginBottom:"10px",paddingBottom:"15px", borderBottom:"2px solid #01adef"}} >
               Need some design help?
               <br />
               Select this package to see our designer's ideas.

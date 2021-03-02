@@ -2,12 +2,15 @@ import React from "react";
 
 const CustomerSections = () => {
   return (
-    <section className="customers-saying">
-      <div className="container" style={{paddingBottom:"30px"}}>
+    <div>
+    <section className="customers-saying" >
+      <div className="container" style={{ paddingBottom: "30px" }}>
         <h1 className="title text-center">What Our Customers Are Saying</h1>
         <div className="row flex-flow">
-          <div className="flexbox" style={{display:"flex" }}>
-            <div className="box-testimonial">
+          <div className="flexbox" style={{ display: "flex", }} >
+            <div
+              className="box-testimonial"
+              >
               <p>
                 Unbelievable experience! My wife and I are so excited to start
                 our project.
@@ -147,6 +150,7 @@ const CustomerSections = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

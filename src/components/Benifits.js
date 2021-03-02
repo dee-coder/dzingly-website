@@ -9,8 +9,11 @@ const Benifits = () => {
           <div className="border-bottom"></div>
         </div>
 
-        <div className="row d-flex">
-          <div className="col-sm-8 col-sm-offset-2 top-space-20">
+        <div className="row d-flex " >
+          <div className="col-sm-8 col-sm-offset-2 top-space-20"  style={{
+          textAlign:"center",
+          margin:"auto"
+        }}>
             <div className=" cost-text-box text-left h100" style= {{maxWidth:"612px"}} >
               <table className="table nogap">
                 <thead>

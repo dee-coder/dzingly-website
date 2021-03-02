@@ -1,9 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 
 const HomeBanner = () => {
   return (
     <div>
-      <div className="home_banner">
+      <div className="home_banner" style={{ marginTop:"43px"}} >
         <div className="container">
           <div className="row d-flex mobile-flex">
             <div className="col-md-5 text-center big-screen mt-5">
@@ -13,14 +15,7 @@ const HomeBanner = () => {
                 See ideas rendered on your home, from professional designers,
                 within two business days.&nbsp;
                 <a href="javascript:;" class="house-wrap-stage red-tooltip">
-                  <img
-                    // src="img/questionmark_circle.png"
-                    alt="tips"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title=""
-                    data-original-title="Once your design palettes are finalized, your completed rendering will be delivered within two business days."
-                  />
+                <FontAwesomeIcon icon={faQuestionCircle} />
                 </a>
               </p>
               <a href="http://thereshome.com/get-started" className="blue-btn">
@@ -53,7 +48,7 @@ const HomeBanner = () => {
                 <img
                   className="home-banner-item"
                   alt="image"
-                  src="/img/homepage-header-3.png"
+                  src="img/dzinly-banner.gif"
                   style={{
                     border: "none",
                     display: "block",

@@ -3,7 +3,7 @@ import React from "react";
 const HowItWorks = () => {
   return (
     <>
-      <section id="how-it-works" className="heading-section">
+      <section id="how-it-works" className="heading-section" >
         <div id="about-us">
           <div className="container">
             <h4 className="title">How DZINLY Works</h4>
@@ -44,7 +44,7 @@ const HowItWorks = () => {
                   </div>
                 </div>
 
-                <div className="timeline-row number-conuter cd-service--2 js-cd-service">
+                <div className="timeline-row number-conuter cd-service--2 js-cd-service" >
                   <div className="timeline-dot fb-bg">1</div>
                   <div className="timeline-content">
                     <img className="" alt="image4" src="/img/h-1.jpg" />

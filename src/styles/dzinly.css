@@ -512,3 +512,108 @@ a.center-plus-button i{
 .area-image {
     bottom: -9px !important;
 }
+
+.box-testimonial:before {
+    content: '';
+    width: 40px;
+    height: 20px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.box-testimonial:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    top: -15px;
+    /* background: url(/img/quote.png) no-repeat center center; */
+    height: 28px;
+    width: 28px;
+    background-size: contain;
+}
+
+.customers-saying {
+    background: url(/src/img/customers-saying.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.customers-saying:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.76);
+    z-index: -1;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.title {
+    font-size: 48px;
+    padding: 35px 0 25px;
+    font-weight: 300;
+    color: #121212;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.flex-flow {
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    column-fill: initial;
+    margin-left: 0;
+    margin-right: 0;
+}
+.flexbox {
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+}
+.box-testimonial:before {
+    content: '';
+    width: 40px;
+    height: 20px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 20px 20px 0 0;
+    -webkit-border-radius: 20px 20px 0 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.box-testimonial:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    top: -15px;
+    /* background: url(/img/quote.png) no-repeat center center; */
+    height: 28px;
+    width: 28px;
+    background-size: contain;
+}

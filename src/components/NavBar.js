@@ -4,7 +4,6 @@ const NavBar = () => {
   return (
     <>
     <header className="main-header home-header">
-        
       <div
         className="navbar navbar-fixed-top bs-docs-nav header-v"
         id="top"
