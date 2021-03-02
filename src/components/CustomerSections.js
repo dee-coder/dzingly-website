@@ -7,7 +7,7 @@ const CustomerSections = () => {
       <div className="container" style={{ paddingBottom: "30px" }}>
         <h1 className="title text-center">What Our Customers Are Saying</h1>
         <div className="row flex-flow">
-          <div className="flexbox" style={{ display: "flex", }} >
+          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}} >
             <div
               className="box-testimonial"
               >
@@ -18,7 +18,7 @@ const CustomerSections = () => {
               <div className="client-name">-Matthew R.</div>
             </div>
           </div>
-          <div className="flexbox">
+          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
             <div className="box-testimonial">
               <p>
                 The Dzinly Team is knowledgeable and completed the project
@@ -29,7 +29,7 @@ const CustomerSections = () => {
               <div className="client-name">-Jenni M.</div>
             </div>
           </div>
-          <div className="flexbox">
+          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
             <div className="box-testimonial">
               <p>
                 Great way to get a great exterior design and realistic render of
@@ -38,7 +38,7 @@ const CustomerSections = () => {
               <div className="client-name">-Erik D.</div>
             </div>
           </div>
-          <div className="flexbox">
+          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
             <div className="box-testimonial">
               <p>
                 My wife and I are pleased with the outcome. This is a great
@@ -47,7 +47,7 @@ const CustomerSections = () => {
               <div className="client-name">-Hassam T. </div>
             </div>
           </div>
-          <div className="flexbox">
+          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
             <div className="box-testimonial">
               <p>
                 My home is an older home in need of an update. I have been
@@ -61,12 +61,14 @@ const CustomerSections = () => {
               <div className="client-name">-Anette R. </div>
             </div>
           </div>
-          <div className="flexbox">
+          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
             <div className="box-testimonial">
               <p>INCREDIBLE </p>
               <div className="client-name">-Melissa P. </div>
             </div>
           </div>
+
+{/* 
           <div className="flexbox">
             <div className="box-testimonial">
               <p>
@@ -146,7 +148,9 @@ const CustomerSections = () => {
               </p>
               <div className="client-name">-Robert K. </div>
             </div>
-          </div>
+          </div> */}
+
+
         </div>
       </div>
     </section>
