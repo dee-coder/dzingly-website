@@ -3,6 +3,8 @@ import React from "react";
 const ToggelSection = () => {
   return (
     <div>
+      <section className="designdemo_project justify-content-center">
+	     <div className="container" style=  {{position: "relative", zIndex: "9 "}}>
       <div className="col-lg-12">
         <h4 className="title title3">Try DZINLY's Toggle Feature</h4>
         <div className="border-bottom" style={{marginBottom:"20px"}}></div>
@@ -55,7 +57,7 @@ const ToggelSection = () => {
                   </div>
                   <div className="area-2-pic area-pd-pics">
                     <img
-                      className="lp-55   "
+                      className="lp-55"
                       id="lp-55"
                       data-dd-name="Area-2"
                       src="/files/demo/26/Gray Roof_1611171449.png"
@@ -107,7 +109,7 @@ const ToggelSection = () => {
                       className="lp-68   "
                       id="lp-68"
                       data-dd-name="Area-4"
-                      src="/files/demo/26/Gray Door_1611259519.png"
+                      src="img/Gray Door_1611259519.png"
                       border="0"
                     />{" "}
                   </div>
@@ -428,6 +430,8 @@ const ToggelSection = () => {
             </div>
           </div>
         </div>
+        </div>
+        </section>
       </div>
     
   );

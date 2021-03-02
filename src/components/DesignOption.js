@@ -4,7 +4,7 @@ const DesignOption = () => {
   return (
     <section
       className="design-options"
-      style={{marginTop:"0px", paddingBottom:"20px"}} >
+      style={{marginTop:"0px", paddingBottom:"20px",backgroundColor:"#F5F5F5"}} >
       <div className="container box">
         <h4 className="title title3">See Your Options</h4>
         <div className="border-bottom"></div>

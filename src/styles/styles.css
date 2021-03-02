@@ -856,9 +856,9 @@ textarea::placeholder {
 }
 
 .banner {
-	/*height:600px;
-	background:url(../img/banner.jpg) no-repeat center center;*/
-	/*background-size:cover*/
+	height:600px;
+	/* background:url(../img/banner.jpg) no-repeat center center;*/ 
+	background-size:cover
 }
 
 .banner h1 {
@@ -1933,8 +1933,8 @@ display: none;}
 
 .version-content {
 	padding: 15px;
-	/*box-shadow:0 0 3px #01adef; 
-	-webkit-box-shadow:0 0 3px #01adef; */
+	box-shadow:0 0 3px #01adef; 
+	/* -webkit-box-shadow:0 0 3px #01adef; */
 	border-radius: 6px;
 	-webkit-border-radius: 6px;
 	color: #222222;
@@ -2005,7 +2005,7 @@ display: none;}
 	max-width: 100%;
 	margin-top: 0px;
 	box-shadow: 0 0 3px #01adef;
-	-webkit-box-shadow: 0 0 3px #01adef;
+	/* -webkit-box-shadow: 0 0 3px #01adef; */
 	padding: 5px;
 	color: #222222
 }
@@ -2618,14 +2618,14 @@ div.pp_default .pp_details .pp_close {
 }
 
 .welcome-you {
-	/*z-index:11111;*/
+	z-index:11111;
 }
 
 .welcome-you img {
 	float: left;
 	margin: 0 40px 10px 0;
 	max-width: 150px;
-	/* height: 150px;*/
+	height: 150px;
 }
 
 .welcome-you h2 {
@@ -2940,7 +2940,7 @@ div.pp_default .pp_details .pp_close {
 	font-size: 24px;
 	font-weight: bold;
 	color: #01adef;
-	vertical-align: top;
+	/* vertical-align: top; */
 	line-height: 1;
 	display: block;
 	margin-top: 0px;
@@ -3058,7 +3058,7 @@ div.pp_default .pp_details .pp_close {
 	margin-bottom: 30px;
 	color: #01adef;
 	display: flex;
-	-webit-display: flex;
+	display: flex;
 	column-count: 2;
 	column-gap: 23px;
 	flex-wrap: wrap;
@@ -3390,7 +3390,7 @@ a:focus {
 }
 
 .live-chat-btn img {
-	/*border: 2px solid #ddd;*/
+	border: 2px solid #ddd;
 }
 
 .modal .modal-header {

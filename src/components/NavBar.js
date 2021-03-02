@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div>
+    <>
     <header className="main-header home-header">
         
       <div
@@ -52,7 +52,7 @@ const NavBar = () => {
           <div
             id="bs-navbar"
             className="navbar-responsive-collapse  mega-menu navbar">
-            <div className="menu-container">
+            <div className="menu-container m-1 flex">
               <ul className="nav navbar-nav navbar-right">
                 <li>
                   <a
@@ -128,7 +128,7 @@ const NavBar = () => {
         </div>
       </div>
       </header>
-    </div>
+    </>
   );
 };
 

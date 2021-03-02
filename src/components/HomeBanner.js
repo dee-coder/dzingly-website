@@ -6,15 +6,15 @@ const HomeBanner = () => {
       <div className="home_banner">
         <div className="container">
           <div className="row d-flex mobile-flex">
-            <div className="col-md-5 text-center big-screen">
+            <div className="col-md-5 text-center big-screen mt-5">
               <h1 className="banner-title">Reimagine Your Home</h1>
               <p>
                 The simple and affordable approach to virtual exterior design.
                 See ideas rendered on your home, from professional designers,
                 within two business days.&nbsp;
-                <a href="javascript:;" className="house-wrap-stage red-tooltip">
+                <a href="javascript:;" class="house-wrap-stage red-tooltip">
                   <img
-                    src="/public/img/homepage-header-3.png"
+                    // src="img/questionmark_circle.png"
                     alt="tips"
                     data-toggle="tooltip"
                     data-placement="top"
@@ -26,6 +26,11 @@ const HomeBanner = () => {
               <a href="http://thereshome.com/get-started" className="blue-btn">
                 Get Started
               </a>
+              <a
+                href="http://thereshome.com/get-started"
+                className=" m blue-btn m-4">
+                Get Started
+              </a>
             </div>
             <div className="col-md-7 right-wrapper-home-banner-image">
               <div id="header-rotating-wrapper">
@@ -33,19 +38,27 @@ const HomeBanner = () => {
                   className="home-banner-item"
                   alt="Homeowner Banner One"
                   src="/public/img/homepage-header-3.png"
-                  style={{border: "none", display: "none"}}
+                  style={{ border: "none", display: "none" }}
                 />
                 <img
                   className="home-banner-item"
                   alt="Homeowner Banner Two"
                   src="/public/img/homepage-header-3.png"
-                  style={{border: "none", display: "block", opacity: "0.00198879"}}
+                  style={{
+                    border: "none",
+                    display: "block",
+                    opacity: "0.00198879",
+                  }}
                 />
                 <img
                   className="home-banner-item"
                   alt="image"
                   src="/img/homepage-header-3.png"
-                  style= {{border: "none", display: "block", opacity: "0.998011"}}
+                  style={{
+                    border: "none",
+                    display: "block",
+                    opacity: "0.998011",
+                  }}
                 />
               </div>
             </div>

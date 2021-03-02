@@ -13,10 +13,10 @@ import FooTer from '../components/FooTer';
 const HomePage = () => {
     return (
         <>
-        <NavBar/>
+        {/* <NavBar/> */}
         <HomeBanner/>
         <HowItWorks/>
-        <ToggelSection/>
+        {/* <ToggelSection/> */}
         <Pricing/>
         <DesignOption/>
         <Benifits/>

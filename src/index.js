@@ -3,15 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './styles/styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './styles/add-area.css'
 import './styles/chat.css';
 import './styles/dzinly.css'
 import './styles/fileinput.css'
 import './styles/jquery-ui.css'
-import './styles/styles.css'
 
 ReactDOM.render(
   <React.StrictMode>

@@ -2,11 +2,11 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <section id="pricing" className="section-spacer large-text package-box">
+    <section id="pricing" className="section-spacer large-text package-box justify-content-center" style={{margin:"18px"}} >
       <div className="container">
         <h4 className="title title2 text-center">Homeowner Design Packages</h4>
         <div className="row d-flex justify-content-between equal-columns-wrapper column-box-row">
-          <div className="col-md-4 col-sm-12 box columnn-box text-center">
+          <div className="col-md-4 col-sm-12 box columnn-box text-center" style={{backgroundColor:"#F5F5F5",padding:"18px"}}>
             <div className="small-title">
               classNameic <span className="price">$99</span>
             </div>
@@ -42,7 +42,7 @@ const Pricing = () => {
             </a>
           </div>
 
-          <div className="col-md-4 col-sm-12 box columnn-box text-center">
+          <div className="col-md-4 col-sm-12 box columnn-box text-center" style={{backgroundColor:"#F5F5F5",padding:"18px"}}>
             <div className="small-title">
               Premium <span className="price">$199</span>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Benifits = () => {
   return (
-    <section className="benefit-box">
+    <section className="benefit-box justify-content-center align-content-center">
       <div className="container">
         <div className="heading-section">
           <h1 className="title">Why DZINLY?</h1>
