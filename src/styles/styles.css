@@ -113,7 +113,7 @@ img {
 
 .icon-btn a:hover .icon-edit {
   /* background-image: url(../imgs/edit_hover.png) */
-  background-image: url("./imgs/homepage-header-3.png");
+  background-image: url("./imgs/our-package.jpg");
 }
 
 @media (max-width: 980px) {
@@ -421,7 +421,7 @@ body {
 .package-box {
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
-  background-image: url("./imgs/homepage-header-3.png");
+  background-image: url("./imgs/our-package.jpg");
   background-size: 100% 100%;
   background-position: center center;
   width: 100%;
