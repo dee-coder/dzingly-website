@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const DesignHome = () => {
   return (
     <>
-      <section className="checkout-banner start-designing text-default">
+      <section className="checkout-banner start-designing text-default" style={{ padding:"97px 50px 60px"  }}>
         <div className="container">
           <h1 class="text-default banner-title"></h1>
         </div>
