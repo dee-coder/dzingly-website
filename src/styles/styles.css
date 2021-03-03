@@ -103,7 +103,7 @@ img {
 }
 
 .icon-btn .icon-edit {
-  /* background: url(../img/edit_normal.png) no-repeat center; */
+  /* background: url(../imgs/edit_normal.png) no-repeat center; */
   width: 13px;
   height: 13px;
   background-size: cover;
@@ -112,8 +112,8 @@ img {
 }
 
 .icon-btn a:hover .icon-edit {
-  /* background-image: url(../img/edit_hover.png) */
-  background-image: url("/public/img/homepage-header-3.png");
+  /* background-image: url(../imgs/edit_hover.png) */
+  background-image: url("./imgs/homepage-header-3.png");
 }
 
 @media (max-width: 980px) {
@@ -405,7 +405,7 @@ body {
 .home-header-banner {
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
-  /* background-image: url("../img/home-header-banner.jpg"); */
+  /* background-image: url("../imgs/home-header-banner.jpg"); */
   background-size: 100% 100%;
   background-position: center center;
   width: 100%;
@@ -418,7 +418,7 @@ body {
 .package-box {
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
-  background-image: url("../img/our-package.jpg");
+  background-image: url("./imgs/homepage-header-3.png");
   background-size: 100% 100%;
   background-position: center center;
   width: 100%;
@@ -431,7 +431,7 @@ body {
 .cost-box {
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
-  /* background-image: url("../img/what-it-cost-background.jpg"); */
+  /* background-image: url("../imgs/what-it-cost-background.jpg"); */
   background-size: 100% 100%;
   background-position: center center;
   width: 100%;
@@ -509,7 +509,7 @@ p b {
 .gallery-box-old {
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
-  /* background-image: url("../img/gallery-bg.jpg"); */
+  /* background-image: url("../imgs/gallery-bg.jpg"); */
   background-size: cover;
   /*background-position:top;*/
   width: 100%;
@@ -851,7 +851,7 @@ textarea::placeholder {
 
 .banner {
   height: 600px;
-  /* background:url(../img/banner.jpg) no-repeat center center;*/
+  /* background:url(../imgs/banner.jpg) no-repeat center center;*/
   background-size: cover;
 }
 
@@ -1110,7 +1110,7 @@ textarea::placeholder {
 }
 
 .slider-section {
-  /*background:url(../img/pattern.jpg) repeat;*/
+  /*background:url(../imgs/pattern.jpg) repeat;*/
   background: #ffffff;
   padding: 50px 0;
   text-align: center;
@@ -1405,25 +1405,25 @@ footer .menu li a {
 }
 
 .inner-banner.designer {
-  /* background: rgba(0, 0, 0, 0) url("../img/designer-banner.jpg") no-repeat scroll center center; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/designer-banner.jpg") no-repeat scroll center center; */
   width: 100%;
   background-size: cover;
 }
 
 .inner-banner.contractor {
-  /* background: rgba(0, 0, 0, 0) url("../img/contractor-banner.jpg") no-repeat scroll center center; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/contractor-banner.jpg") no-repeat scroll center center; */
   width: 100%;
   background-size: cover;
 }
 
 .inner-banner.faq {
-  /* background: rgba(0, 0, 0, 0) url("../img/faq.jpg") no-repeat scroll center center; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/faq.jpg") no-repeat scroll center center; */
   width: 100%;
   background-size: cover;
 }
 
 .inner-banner.biography {
-  /* background: rgba(0, 0, 0, 0) url("../img/biography.jpg") no-repeat scroll center center; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/biography.jpg") no-repeat scroll center center; */
   width: 100%;
   background-size: cover;
 }
@@ -2012,7 +2012,7 @@ footer .menu li a {
 }
 
 .custom-select {
-  /* background: #ffffff url(../img/down-arrow.png) right center no-repeat; */
+  /* background: #ffffff url(../imgs/down-arrow.png) right center no-repeat; */
   -moz-appearance: none;
   -webkit-appearance: none;
 }
@@ -2175,14 +2175,14 @@ footer .menu li a {
 }
 
 .homes-exterior {
-  /* background: rgba(0, 0, 0, 0) url("../img/start-designing.jpg") no-repeat scroll center center; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/start-designing.jpg") no-repeat scroll center center; */
   background-size: cover;
 }
 
 .start-designing {
-  background: rgba(0, 0, 0, 0) url("../img/photo-of-your-homes-exterior.jpg")
-    no-repeat scroll center center;
-  /* background: rgba(0, 0, 0, 0) url("../img/photo-of-your-homes-exterior.jpg") no-repeat scroll center center; */
+  background: rgba(0, 0, 0, 0) url("./imgs/customers-saying.jpg") no-repeat
+    scroll center center;
+  /* background: rgba(0, 0, 0, 0) url("../imgs/photo-of-your-homes-exterior.jpg") no-repeat scroll center center; */
   background-size: cover;
 }
 
@@ -2265,14 +2265,14 @@ div.pp_default div.ppt {
 }
 
 div.pp_default .pp_details .pp_close {
-  /* background: rgba(0, 0, 0, 0) url("../img/close.svg") no-repeat scroll 2px 1px; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/close.svg") no-repeat scroll 2px 1px; */
   background-size: cover;
   right: 15px;
   top: -49px;
 }
 
 .modal-body .owl-next {
-  /* background: rgba(0, 0, 0, 0) url("../img/right-arrow.svg") no-repeat scroll right center; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/right-arrow.svg") no-repeat scroll right center; */
   background-size: 40px 40px;
   height: 45px;
   right: 20px;
@@ -2284,7 +2284,7 @@ div.pp_default .pp_details .pp_close {
 }
 
 .modal-body .owl-prev {
-  /* background: rgba(0, 0, 0, 0) url("../img/left-arrow.svg") no-repeat scroll 0 center; */
+  /* background: rgba(0, 0, 0, 0) url("../imgs/left-arrow.svg") no-repeat scroll 0 center; */
   background-size: 40px 40px;
   height: 45px;
   left: 20px;
@@ -3001,7 +3001,7 @@ div.pp_default .pp_details .pp_close {
 .pro-license-box {
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
-  /* background-image: url("../img/professional-pricing-background.jpg"); */
+  /* background-image: url("../imgs/professional-pricing-background.jpg"); */
   background-size: 100% 100%;
   background-position: center center;
   width: 100%;
