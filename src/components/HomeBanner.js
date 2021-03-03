@@ -40,7 +40,7 @@ const HomeBanner = () => {
                 </OverlayTrigger>
               </p>
               <a href="http://thereshome.com/get-started" className="blue-btn">
-                Get Started
+                Get Started   
               </a>
               <a
                 href="http://thereshome.com/get-started"
