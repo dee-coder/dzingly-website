@@ -347,14 +347,14 @@ a.center-plus-button i {
   padding: 0 5px;
   line-height: 1.2;
 }
-<!--.tour-info.left {
+.tour-info.left {
   bottom: 20px;
   width: 190px;
   right: 90%;
   left: auto;
   padding-right: 12px;
 }
--- > .tour-info.left {
+.tour-info.left {
   bottom: 20px;
   width: 160px;
   right: 64%;
@@ -911,9 +911,6 @@ a.center-plus-button i {
   }
 }
 
-.largest-text a {
-}
-
 @media (min-width: 800px) and (max-width: 1023px) {
   .title-upper-main {
     max-width: 300px;
@@ -1199,14 +1196,14 @@ a.center-plus-button i {
   padding-left: 30px;
 }
 
-<style > .vsmall-container {
+.vsmall-container {
   max-width: 785px;
 }
 
 .krajee-default.file-preview-frame {
   float: none !important;
   display: flex !important;
-  align-item: center !important;
+
   justify-content: center !important;
   flex-direction: column !important;
   padding: 50px 50px 0 50px !important;
@@ -1706,7 +1703,7 @@ a.center-plus-button i {
 .krajee-default.file-preview-frame {
   float: none !important;
   display: flex !important;
-  align-item: center !important;
+
   justify-content: center !important;
   flex-direction: column !important;
   padding: 50px 50px 0 50px !important;
@@ -2205,7 +2202,7 @@ a.center-plus-button i {
 .krajee-default.file-preview-frame {
   float: none !important;
   display: flex !important;
-  align-item: center !important;
+
   justify-content: center !important;
   flex-direction: column !important;
   padding: 50px 50px 0 50px !important;
