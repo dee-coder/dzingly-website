@@ -15,7 +15,7 @@ const Login = () => {
 
   return (
     <>
-      <section className="inner-banner blue-bg" style={{padding:"40px 12px"}}>
+      <section className="inner-banner blue-bg" style={{padding:"40px 12px",marginTop:"77px"}}>
         <div className="container">
           <h1 className="text-default" style= {{textTransform:"capitalize"}}>
             Sign In

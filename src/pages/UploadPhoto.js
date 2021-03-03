@@ -3,7 +3,7 @@ import React from "react";
 const UploadPhoto = () => {
   return (
     <>
-      <section className="checkout-banner start-designing text-default">
+      <section className="checkout-banner start-designing text-default" style={{marginTop:"77px"}}>
         <div className="container">
           <h1 className="text-default banner-title">How to Take the Best Photo</h1>
         </div>
