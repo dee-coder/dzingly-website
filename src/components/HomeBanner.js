@@ -29,7 +29,7 @@ const HomeBanner = () => {
                 }}>
                 Reimagine Your Home
               </h1>
-              <p style={{padding:"12px",fontSize:"25px"}}>
+              <p style={{padding:"8px",fontSize:"25px"}}>
                 The simple and affordable approach to virtual exterior design.
                 See ideas rendered on your home, from professional designers,
                 within two business days.&nbsp;
