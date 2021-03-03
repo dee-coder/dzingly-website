@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
-
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
+import { Link } from "react-router-dom";
 
 const HomeBanner = () => {
   const renderTooltip = (props) => (
@@ -39,14 +39,10 @@ const HomeBanner = () => {
                   </a>
                 </OverlayTrigger>
               </p>
-              <a href="http://thereshome.com/get-started" className="blue-btn">
+              <Link to="/get-started" className="blue-btn">
                 Get Started   
-              </a>
-              <a
-                href="http://thereshome.com/get-started"
-                className=" m blue-btn m-4">
-                Get Started
-              </a>
+              </Link>
+              
             </div>
             <div className="col-md-7 right-wrapper-home-banner-image">
               <div id="header-rotating-wrapper">

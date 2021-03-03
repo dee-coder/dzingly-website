@@ -2,7 +2,7 @@ import React from "react";
 
 const FooTer = () => {
   return (
-    <div id="footer-navbar" className="container">
+    <div id="footer-navbar" className="container" style={{marginTop:"99px"}} >
       <p className="text-center">
         {" "}
         <span className="c">©</span>2021 DZINLY<span className="r">®</span>. ALL

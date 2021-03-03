@@ -617,3 +617,67 @@ a.center-plus-button i{
     width: 28px;
     background-size: contain;
 }
+
+
+
+    .checkbox-btn{display:inline-block; margin-left:0px;margin-right:0px;margin-bottom:10px}
+	.checkbox-btn input[type="radio"]{width:0;height:0;position:absolute; visibility:hidden; opacity:0}
+	.checkbox-btn input[type="radio"] + label{border:1px solid #888888;color: #888;padding:12px 20px; font-size:18px;font-weight:normal;width: 100%;width: 210px;}
+	.checkbox-btn input[type="radio"]:checked + label{color:#01adef; border-color:#01adef}
+	.checkbox-btn input[type="radio"] + label:before,.checkbox-btn input[type="radio"] + label:after{display:none}
+	#homeowner-profile,#professional-profile{display:none}
+	.gray{color:#888 !important}
+	
+    .mybtn {
+        background: #fff;color: #01abef;border-radius: 0 ;padding: 7px 20px;
+        border-color: #01abef;
+		min-width:140px;
+		text-align: center !important;
+		margin:5px;
+    }
+	.login-here{ color:#01adef; font-weight:bold; font-size:14px;}
+	.title-upper-main {position: relative;max-width: 330px;margin: 40px auto 0;}
+	.title-upper2 {
+		position: absolute;
+		right: 5px;
+		left: auto;
+		top: -23px;
+		bottom: auto;
+		padding: 5px 15px;
+		font-size: 13px;
+		line-height: 16px;
+		width: calc(100% - 10px);
+		height: 28px;
+	}
+	
+	@media (min-width: 320px) and (max-width: 549px) {
+		.title-upper-main {max-width: 320px;} 
+		.mybtn{min-width:130px;}
+}
+
+
+
+.largest-text a{ 
+}
+    
+	@media (min-width: 800px) and (max-width: 1023px) {.title-upper-main {max-width: 300px;} .btn {font-size: 11px;}}
+	@media (min-width: 769px){.categories-box div{width:49%}}
+	@media (max-width: 768px){
+		.categories-box div label{display:inline-block}
+		.categories-box .text-danger{width:78%}
+		#professional-profile .nopadlr{ padding-left:0!important; padding-right:3px;}
+		.categories-box div{width:49%}
+		.col-sm-offset-1{margin-left:0; width:100%}
+	}
+    .largest-text a{
+        width:94%!important
+    }
+	.title-upper-main {
+		 display: flex;
+		 align-items: center;
+    justify-content: center;
+	}
+	.professional_btn {
+    position: relative;
+}
+	
