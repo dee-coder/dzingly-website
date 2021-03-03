@@ -17,7 +17,7 @@ const HomeBanner = () => {
 
   return (
     <div>
-      <div className="home_banner" style={{ padding:"97px 50px 60px",backgroundColor:"#F5F5F5"  }}>
+      <div className="home_banner" style={{ padding:"97px 50px 60px"}}>
         <div className="container" >
           <div className="row d-flex mobile-flex">
             <div className="col-md-5 text-center big-screen mt-5">
