@@ -9,7 +9,7 @@ const HomeBanner = () => {
   const renderTooltip = (props) => (
     <Tooltip {...props} >
       <div style={{padding:"9px"}} >
-      Once your design palettes are finalized, your completed rendering will be
+      Once your Design palettes are finalized, your completed rendering will be
       delivered within two business days.
       </div>
     </Tooltip>
