@@ -7,7 +7,7 @@ const ForgetPwd = () => {
     <>
       <section
         className="inner-banner blue-bg"
-        style={{ padding: "40px 12px" }}>
+        style={{ padding: "40px 12px" ,marginBottom:"77px" }}>
         <div className="container">
           <h1 className="text-default" style={{ textTransform: "capitalize" }}>
             Forget Password

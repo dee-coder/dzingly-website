@@ -1515,7 +1515,7 @@ a.center-plus-button i {
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   content: "";
-  /* background: url(/img/arrow-down-tour.png) no-repeat; */
+  background: url(./imgs/arrow-down-tour.png) no-repeat;
   width: 46px;
   height: 45px;
   position: absolute;
