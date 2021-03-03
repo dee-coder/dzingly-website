@@ -1,5 +1,6 @@
 import React from "react";
 import FooTer from "../components/FooTer";
+import {Link} from "react-router-dom"
 
 const GetStartedPage = () => {
   return (
@@ -13,9 +14,9 @@ const GetStartedPage = () => {
         <div className="container">
           <div className="white-box desktop-view  payment-wrap">
             <div className="row">
-              <div className="overlay hide"></div>
-              <div className="clearfix">
-                <div className="largest-text">
+              <div className=" t"></div>
+              <div className="clearfix" style={{margin:"auto"}}>
+                <div className="largest-text  " >
                   <p className="text-center">
                     Please tell us who you are so we can tailor our website to
                     serve you better.
@@ -44,12 +45,12 @@ const GetStartedPage = () => {
 
               <p className="space-10 text-center">
                 Already have an account?{" "}
-                <a
+                <Link
                   className="login-here"
-                  href="http://thereshome.com/login"
+                  to="/login"
                   title="Sign In">
                   Log in here
-                </a>
+                </Link>
               </p>
             </div>
           </div>

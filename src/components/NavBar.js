@@ -1,9 +1,11 @@
 import React from "react";
 
+import {Link} from "react-router-dom";
+
 const NavBar = () => {
   return (
     <>
-    <header className="main-header home-header">
+    <header className="main-header home-header justify-content-center">
       <div
         className="navbar navbar-fixed-top bs-docs-nav header-v"
         id="top"
@@ -52,8 +54,8 @@ const NavBar = () => {
             id="bs-navbar"
             className="navbar-responsive-collapse  mega-menu navbar">
             <div className="menu-container m-1 flex">
-              <ul className="nav navbar-nav navbar-right">
-                <li>
+              <ul className="nav navbar-nav navbar-right" className="menu list-inline">
+                <li className="list-inline-item" >
                   <a
                     className="ht_how_it_works click-scroll"
                     href="http://thereshome.com/#how-it-works"
@@ -61,7 +63,7 @@ const NavBar = () => {
                     How It Works
                   </a>
                 </li>
-                <li>
+                <li className="list-inline-item" >
                   <a
                     className="ht_pricing click-scroll"
                     href="http://thereshome.com/#pricing"
@@ -69,7 +71,7 @@ const NavBar = () => {
                     Pricing
                   </a>
                 </li>
-                <li>
+                <li className="list-inline-item" >
                   <a
                     className="ht_recent_projects click-scroll"
                     href="http://thereshome.com/#recent-projects"
@@ -78,7 +80,7 @@ const NavBar = () => {
                   </a>
                 </li>
 
-                <li>
+                <li className="list-inline-item" >
                   <a
                     className="ht_professionals"
                     href="http://thereshome.com/professionals"
@@ -86,15 +88,15 @@ const NavBar = () => {
                     Professionals{" "}
                   </a>
                 </li>
-                <li>
-                  <a
+                <li className="list-inline-item" >
+                  <Link
                     className="ht_login"
-                    href="http://thereshome.com/login"
+                    to="/login"
                     title="Sign In">
                     Sign In
-                  </a>
+                    </Link>
                 </li>
-                <li className="h-get-started">
+                <li className="h-get-started" className="list-inline-item" >
                   <a
                     href="http://thereshome.com/get-started"
                     className="blue-btn"
@@ -103,7 +105,7 @@ const NavBar = () => {
                   </a>
                 </li>
 
-                <li className="icon-btn">
+                <li className="icon-btn" className="list-inline-item" >
                   <a
                     href="https://www.instagram.com/dzinlyspace"
                     rel="noopener noreferrer"
@@ -112,7 +114,7 @@ const NavBar = () => {
                     <i className="fa fa-instagram"></i>
                   </a>
                 </li>
-                <li className="icon-btn">
+                <li className="icon-btn" className="list-inline-item" >
                   <a
                     href="http://dzinlyinfo.com"
                     rel="noopener noreferrer"
