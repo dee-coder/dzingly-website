@@ -7,7 +7,6 @@ import DesignOption from "../components/DesignOption";
 import Benifits from "../components/Benifits";
 import AboutWe from "../components/AboutWe";
 import CustomerSections from "../components/CustomerSections";
-import FooTer from "../components/FooTer";
 
 const HomePage = () => {
   return (
@@ -21,7 +20,7 @@ const HomePage = () => {
       <Benifits />
       <AboutWe />
       <CustomerSections />
-      <FooTer />
+      
     </>
   );
 };

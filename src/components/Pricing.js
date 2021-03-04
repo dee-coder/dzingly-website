@@ -41,7 +41,7 @@ const Pricing = () => {
             </ul>
 
             <a
-              href="http://thereshome.com/get-started?ref=owner&amp;package=1"
+              href="/get-started-design-your-own-home"
               className="blue-btn"
               data-pp="1">
               Select
@@ -79,7 +79,7 @@ const Pricing = () => {
             </ul>
 
             <a
-              href="http://thereshome.com/get-started?ref=owner&amp;package=2"
+              href="/get-started-design-your-own-home"
               className="blue-btn"
               data-pp="2">
               Select

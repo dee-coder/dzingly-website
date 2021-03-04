@@ -1,6 +1,6 @@
 import React ,{useState} from "react";
 import {Link} from "react-router-dom"
-import FooTer from '../components/FooTer';
+
 
 const Login = () => {
 
@@ -157,7 +157,7 @@ const Login = () => {
           </div>
         </div>
       </section>
-      <FooTer/>
+      
     </>
   );
 };

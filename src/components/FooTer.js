@@ -14,17 +14,17 @@ const FooTer = () => {
           textAlign:"center"
         }}>
         <li className="list-inline-item" >
-          <a href="#">About</a>
+          <a href="/">About</a>
         </li>
         <li className="list-inline-item" >
-          <a href="http://thereshome.com/" title="Home">
+          <a href="/" title="Home">
             Home
           </a>
         </li>
         <li className="list-inline-item" >
           <a
             className="ht_how_it_work click-scroll"
-            href="http://thereshome.com/#how-it-work"
+            href="/"
             title="How It Works">
             How It Works
           </a>
@@ -32,39 +32,39 @@ const FooTer = () => {
         <li className="list-inline-item" >
           <a
             className="ht_pricing click-scroll"
-            href="http://thereshome.com/#pricing"
+            href="/"
             title="Pricing">
             Pricing
           </a>
         </li>
         <li className="list-inline-item" >
-          <a className="ht_faq" href="http://thereshome.com/faq" title="FAQs">
+          <a className="ht_faq" href="/" title="FAQs">
             FAQ
           </a>
         </li>
         <li className="list-inline-item" >
           <a
             className="ht_about_us click-scroll"
-            href="http://thereshome.com/#about-us"
+            href="/"
             title="About">
             About
           </a>
         </li>
 
         <li className="list-inline-item" >
-          <a href="http://thereshome.com/contact-us" title="Contact">
+          <a href="/contact-us" title="Contact">
             Contact
           </a>
         </li>
 
         <li className="list-inline-item" >
-          <a href="http://thereshome.com/privacy-policy" title="Privacy Policy">
+          <a href="/privacy-policy" title="Privacy Policy">
             Privacy Policy
           </a>
         </li>
         <li className="list-inline-item" >
           <a
-            href="http://thereshome.com/terms-of-use"
+            href="/Term-conditions"
             title="Terms and Conditions">
             Terms and Conditions
           </a>

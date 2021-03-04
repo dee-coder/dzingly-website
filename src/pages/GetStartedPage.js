@@ -1,5 +1,4 @@
 import React from "react";
-import FooTer from "../components/FooTer";
 import {Link} from "react-router-dom"
 
 const GetStartedPage = () => {
@@ -56,7 +55,7 @@ const GetStartedPage = () => {
           </div>
         </div>
       </section>
-      <FooTer />
+      
     </>
   );
 };

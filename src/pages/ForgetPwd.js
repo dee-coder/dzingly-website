@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FooTer from '../components/FooTer';
 
 const ForgetPwd = () => {
   return (
@@ -78,7 +77,7 @@ const ForgetPwd = () => {
           </div>
         </div>
       </section>
-     <FooTer/>
+    
     </>
   );
 };

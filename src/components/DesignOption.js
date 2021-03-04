@@ -23,7 +23,7 @@ const DesignOption = () => {
           </div>
           <div className="col-md-6 col-sm-6 padding-box mobile-top-arrow">
             <div className="box box-shadow right d-flex">
-              <div className="outer-block">
+              <div className="outer-block" style={{justifyContent:"center",alignItems:"center"}} >
                 <p className="subtitle">
                   See various options on your home until you land on the perfect
                   design. Fall in love with your design or your money back!
