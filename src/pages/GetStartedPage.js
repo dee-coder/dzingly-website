@@ -33,7 +33,7 @@ const GetStartedPage = () => {
                   <div className="professional_btn">
                     <div className="title-upper title-upper2">Coming Soon</div>
                     <a
-                      href="/get-started-design-your-project"
+                      href="/professional"
                       title="Professional"
                       className="btn checkbox-btn mybtn">
                       Professional
