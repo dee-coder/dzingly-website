@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestionCircle } from "@fortawesome/free-solid-svg-icons";
+
+
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import { Link } from "react-router-dom";
@@ -36,6 +38,7 @@ const HomeBanner = () => {
                 <OverlayTrigger placement="top" overlay={renderTooltip}>
                   <a href="javascript:;" class="house-wrap-stage red-tooltip">
                     <FontAwesomeIcon icon={faQuestionCircle} />
+                    
                   </a>
                 </OverlayTrigger>
               </p>

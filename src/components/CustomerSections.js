@@ -1,53 +1,123 @@
 import React from "react";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const CustomerSections = () => {
   return (
-    <div>
-    <section className="customers-saying" >
-      <div className="container" style={{ paddingBottom: "30px" }}>
-        <h1 className="title text-center">What Our Customers Are Saying</h1>
-        <div className="row flex-flow">
-          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}} >
-            <div
-              className="box-testimonial"
-              >
-              <p>
-                Unbelievable experience! My wife and I are so excited to start
-                our project.
-              </p>
-              <div className="client-name">-Matthew R.</div>
-            </div>
-          </div>
-          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
-            <div className="box-testimonial">
-              <p>
-                The Dzinly Team is knowledgeable and completed the project
-                before I expected. I highly highly recommend using the dzinly
-                website when executing an exterior project. You won’t be
-                disappointed.
-              </p>
-              <div className="client-name">-Jenni M.</div>
-            </div>
-          </div>
-          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
-            <div className="box-testimonial">
-              <p>
-                Great way to get a great exterior design and realistic render of
-                your home.
-              </p>
-              <div className="client-name">-Erik D.</div>
-            </div>
-          </div>
-          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
-            <div className="box-testimonial">
-              <p>
-                My wife and I are pleased with the outcome. This is a great
-                design service.
-              </p>
-              <div className="client-name">-Hassam T. </div>
-            </div>
-          </div>
-          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
+    <>
+      {/* <ChildA />
+                    <ChildB />
+                    <ChildY />
+                    <ChildZ /> */}
+
+      <section className="customers-saying">
+        <div className="container" style={{ paddingBottom: "30px" }}>
+          <h1 className="title text-center">What Our Customers Are Saying</h1>
+          {/* <div className="row flex-flow"> */}
+
+          <ResponsiveMasonry
+            columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+            <Masonry>
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>
+                  Unbelievable experience! My wife and I are so excited to start
+                  our project.
+                </p>
+                <div className="client-name"> -Matthew R.</div>
+              </div>
+
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>
+                  The Dzinly Team is knowledgeable and completed the project
+                  before I expected. I highly highly recommend using the dzinly
+                  website when executing an exterior project. You won’t be
+                  disappointed.
+                </p>
+                <div className="client-name"> -Jenni M.</div>
+              </div>
+
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>
+                  Great way to get a great exterior design and realistic render
+                  of your home.
+                </p>
+                <div className="client-name"> -Erik D.</div>
+              </div>
+
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>
+                  My wife and I are pleased with the outcome. This is a great
+                  design service.
+                </p>
+                <div className="client-name"> -Hassam T. </div>
+              </div>
+
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>
+                  My wife and I are pleased with the outcome. This is a great
+                  design service.
+                </p>
+                <div className="client-name"> -Hassam T. </div>
+              </div>
+
+              <div
+                style={{
+                  marginRight: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>
+                  My wife and I are pleased with the outcome. This is a great
+                  design service.
+                </p>
+                <div className="client-name"> -Hassam T. </div>
+              </div>
+
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>
+                  My wife and I are pleased with the outcome. This is a great
+                  design service.
+                </p>
+                <div className="client-name"> -Hassam T. </div>
+              </div>
+
+              {/* <div className="flexbox" style={{margin:"12px", padding:"34px",backgroundColor:"#fff",borderRadius:"12px" }}>
             <div className="box-testimonial">
               <p>
                 My home is an older home in need of an update. I have been
@@ -58,17 +128,34 @@ const CustomerSections = () => {
                 choose. I went with all three versions. I loved 2 out of the
                 three. What an incredible experience.{" "}
               </p>
-              <div className="client-name">-Anette R. </div>
+              <div className="client-name"> -Anette R. </div>
             </div>
-          </div>
-          <div className="flexbox" style={{ marginBottom:"2px",borderBottom:"2px solid  #01adef"}}>
-            <div className="box-testimonial">
-              <p>INCREDIBLE </p>
-              <div className="client-name">-Melissa P. </div>
-            </div>
-          </div>
+          </div> */}
 
-{/* 
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>INCREDIBLE </p>
+                <div className="client-name"> -Melissa P. </div>
+              </div>
+              <div
+                style={{
+                  margin: "12px",
+                  padding: "34px",
+                  backgroundColor: "#fff",
+                  borderRadius: "12px",
+                }}>
+                <p>INCREDIBLE </p>
+                <div className="client-name"> -Melissa P. </div>
+              </div>
+            </Masonry>
+          </ResponsiveMasonry>
+
+          {/* 
           <div className="flexbox">
             <div className="box-testimonial">
               <p>
@@ -150,11 +237,10 @@ const CustomerSections = () => {
             </div>
           </div> */}
 
-
+          {/* </div> */}
         </div>
-      </div>
-    </section>
-    </div>
+      </section>
+    </>
   );
 };
 

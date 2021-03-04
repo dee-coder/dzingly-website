@@ -1,4 +1,8 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+
 
 const Benifits = () => {
   return (
@@ -6,6 +10,7 @@ const Benifits = () => {
       <div className="container">
         <div className="heading-section">
           <h1 className="title">Why DZINLY?</h1>
+          
           <div className="border-bottom"></div>
         </div>
 
@@ -18,7 +23,7 @@ const Benifits = () => {
               <table className="table nogap">
                 <thead>
                   <tr>
-                    <td width="68%" align="left" valign="middle">
+                    <td width="68%"  valign="middle">
                       &nbsp;
                     </td>
                     <td
@@ -43,56 +48,57 @@ const Benifits = () => {
                   <tr>
                     <td>No on-site visits needed</td>
                     <td align="center">
-                      <i className="fa fa-check"></i>
+                    <FontAwesomeIcon icon={faCheck} />
+                      {/* <i className="fa fa-check"></i> */}
                     </td>
-                    <td align="center">
-                      <i className="fa fa-close red"></i>
+                    <td align="center" style={{color:"red"}} >
+                    <FontAwesomeIcon icon={faTimes} />
                     </td>
                   </tr>
                   <tr>
                     <td>Renderings of your exact house</td>
-                    <td align="center">
-                      <i className="fa fa-check"></i>
+                    <td align="center" >
+                    <FontAwesomeIcon icon={faCheck} />
                     </td>
-                    <td align="center">
-                      <i className="fa fa-close red"></i>
+                    <td align="center" style={{color:"red"}}>
+                    <FontAwesomeIcon icon={faTimes} />
                     </td>
                   </tr>
                   <tr>
                     <td>Toggle between multiple designs</td>
                     <td align="center">
-                      <i className="fa fa-check"></i>
+                    <FontAwesomeIcon icon={faCheck} />
                     </td>
-                    <td align="center">
-                      <i className="fa fa-close red"></i>
+                    <td align="center" style={{color:"red"}}>
+                    <FontAwesomeIcon icon={faTimes} />
                     </td>
                   </tr>
                   <tr>
                     <td>First revision is free</td>
                     <td align="center">
-                      <i className="fa fa-check"></i>
+                    <FontAwesomeIcon icon={faCheck} />
                     </td>
-                    <td align="center">
-                      <i className="fa fa-close red"></i>
+                    <td align="center" style={{color:"red"}}>
+                    <FontAwesomeIcon icon={faTimes} />
                     </td>
                   </tr>
                   <tr>
                     <td>$5 per additional versions</td>
                     <td align="center">
-                      <i className="fa fa-check"></i>
+                    <FontAwesomeIcon icon={faCheck} />
                     </td>
-                    <td align="center">
-                      <i className="fa fa-close red"></i>
+                    <td align="center" style={{color:"red"}}>
+                    <FontAwesomeIcon icon={faTimes} />
                     </td>
                   </tr>
 
                   <tr>
                     <td>Projects never expire</td>
                     <td align="center">
-                      <i className="fa fa-check"></i>
+                    <FontAwesomeIcon icon={faCheck} />
                     </td>
-                    <td align="center">
-                      <i className="fa fa-close red"></i>
+                    <td align="center" style={{color:"red"}}>
+                    <FontAwesomeIcon icon={faTimes} />
                     </td>
                   </tr>
                 </tbody>
