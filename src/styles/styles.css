@@ -2183,9 +2183,9 @@ footer .menu li a {
 }
 
 .start-designing {
-  background: rgba(0, 0, 0, 0) url("./imgs/customers-saying.jpg") no-repeat
-    scroll center center;
-  /* background: rgba(0, 0, 0, 0) url("../imgs/photo-of-your-homes-exterior.jpg") no-repeat scroll center center; */
+  /* background: rgba(0, 0, 0, 0) url("./imgs/customers-saying.jpg") no-repeat */
+    /* scroll center center; */
+  background: rgba(0, 0, 0, 0) url("./imgs/photo-of-your-homes-exterior.jpg") no-repeat scroll center center;
   background-size: cover;
 }
 

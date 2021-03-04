@@ -137,7 +137,7 @@ const HowItWorks = () => {
           </div>
         </div>
         <div className="text-center">
-          <a href="http://thereshome.com/get-started" className="blue-btn">
+          <a href="/get-started" className="blue-btn">
             Get Started
           </a>
         </div>

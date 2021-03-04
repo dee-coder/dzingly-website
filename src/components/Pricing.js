@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 const Pricing = () => {
   return (
@@ -22,6 +24,7 @@ const Pricing = () => {
 
             <ul className="package-benefits">
               <li>
+                
                 Input the exact colors/materials you’d like to see rendered on
                 your home
               </li>
